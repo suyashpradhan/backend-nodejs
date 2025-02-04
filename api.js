@@ -1,3 +1,9 @@
-const a = 10
+const calculateSum = (number1, number2) => {
+    return number1 + number2;
+}
 
-console.log(`Hello ${a}!`)
+const x = `Hello, World!`;
+
+module.exports = {
+    x, calculateSum
+};
