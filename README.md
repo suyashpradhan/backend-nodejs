@@ -31,3 +31,9 @@ module.exports = {x: x, calculateSum:calculateSum} // Multiple Export
 | Older way                     |            New approach             |
 | Synchronous                   |            Asynchronous             |
 | Non Strict Mode               |             Strict Mode             |
+
+### How Modules works internally
+
+1. All the code of the module is wrapped inside a IIFE function, and because of that we are able we are not able to access 
+certain properties because of scopes.
+2. 
